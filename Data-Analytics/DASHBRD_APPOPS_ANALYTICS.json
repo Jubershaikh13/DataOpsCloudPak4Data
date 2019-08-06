@@ -1,0 +1,1144 @@
+{
+  "name": "New dashboard",
+  "layout": {
+    "id": "page0",
+    "items": [
+      {
+        "id": "page1",
+        "items": [
+          {
+            "id": "model0000016b8ef8ff79_00000000",
+            "style": {
+              "left": "12px",
+              "top": "104px",
+              "height": "420px",
+              "width": "500px"
+            },
+            "type": "widget"
+          },
+          {
+            "id": "model0000016b8efea8a2_00000000",
+            "style": {
+              "left": "512px",
+              "top": "38px",
+              "height": "420px",
+              "width": "500px"
+            },
+            "type": "widget"
+          }
+        ],
+        "type": "absolute",
+        "title": {
+          "translationTable": {
+            "Default": "ICD OVERDUE REPORT"
+          }
+        },
+        "templateName": "NoTemplate"
+      },
+      {
+        "id": "model0000016b8f0ac61b_00000000",
+        "items": [
+          {
+            "id": "model0000016b8f16e1ea_00000000",
+            "style": {
+              "left": "179px",
+              "top": "18px",
+              "height": "420px",
+              "width": "500px"
+            },
+            "type": "widget"
+          }
+        ],
+        "type": "absolute",
+        "title": {
+          "translationTable": {
+            "Default": "DST OVERDUE REPORT"
+          }
+        },
+        "templateName": "NoTemplate"
+      },
+      {
+        "id": "model0000016c03d2c8f4_00000000",
+        "items": [
+          {
+            "id": "model0000016c03d3d4f5_00000000",
+            "style": {
+              "left": "15px",
+              "top": "133px",
+              "height": "420px",
+              "width": "710px"
+            },
+            "type": "widget"
+          },
+          {
+            "id": "model0000016c03f0784a_00000000",
+            "style": {
+              "left": "15px",
+              "top": "545px",
+              "height": "420px",
+              "width": "758px"
+            },
+            "type": "widget"
+          },
+          {
+            "id": "model0000016c03f2fff1_00000000",
+            "style": {
+              "left": "61px",
+              "top": "962px",
+              "height": "420px",
+              "width": "664px"
+            },
+            "type": "widget"
+          }
+        ],
+        "type": "absolute",
+        "title": {
+          "translationTable": {
+            "Default": "SASICD OVERDUE REPORT"
+          }
+        },
+        "templateName": "NoTemplate"
+      }
+    ],
+    "style": {
+      "height": "100%"
+    },
+    "type": "tab"
+  },
+  "theme": "defaultTheme",
+  "version": 1009,
+  "eventGroups": [
+    {
+      "id": "page1:1",
+      "widgetIds": [
+        "model0000016b8ef8ff79_00000000",
+        "model0000016b8efea8a2_00000000"
+      ]
+    },
+    {
+      "id": "model0000016b8f0ac61b_00000000:1",
+      "widgetIds": [
+        "model0000016b8f16e1ea_00000000"
+      ]
+    },
+    {
+      "id": "model0000016c03d2c8f4_00000000:1",
+      "widgetIds": [
+        "model0000016c03d3d4f5_00000000",
+        "model0000016c03f0784a_00000000",
+        "model0000016c03f2fff1_00000000"
+      ]
+    }
+  ],
+  "properties": {
+    "defaultLocale": "Default"
+  },
+  "dataSources": {
+    "version": "1.0",
+    "sources": [
+      {
+        "id": "model0000016b8ef88d64_00000001",
+        "assetId": "assetId0000016b8ef88d63_00000000",
+        "clientId": "eyJwcm9qZWN0IjoiQVBQT1BTX0FOQUxZVElDUyIsIm5hbWUiOiJJQ0QuSUNEX1RJQ0tFVF9PVkVSRFVFX1JFUE9SVCIsInR5cGUiOiJCaWdTUUwifQ==",
+        "module": {
+          "identifier": "aICD_TICKET_OVERDUE_REPORT",
+          "label": "ICD_TICKET_OVERDUE_REPORT",
+          "source": {
+            "id": "ICD_TICKET_OVERDUE_REPORT",
+            "jdbc": {
+              "connectionProperties": "",
+              "driverClassName": "com.ibm.db2.jcc.DB2Driver",
+              "jdbcUrl": "{enc}TUSxsrDXNrlguXA/q/J0doFglI8Lcqhlk16jQk9TbWwwa0CzfcvSDFaljJxzK1jRINNbqOEx2wYVWcpTnhcFiv+LmBzVn7fcYdvV8JjML6L5cWG+exFRD0aBDqegYeZ7fblXAdF5UnevMtXHFWWwdmpRJo+O8pFz2ZBmAyTogCdcwy3sN3qUHj5t+WtOW6BeL2aqrqHbXRNhI8iqVQJKocn2mEvrEz3D+v7Trvjc1a0wreA4m0LRWkWfx3KuJFo0TeF5hq+tHrcfwOl09t+agj2rMx8b7SBSvG/9wMnY/W6STAdOZRADqGbPISunOB/58LBMixkCsy6HT53Awp7DXQ==",
+              "schema": "{enc}kuSxMKWoUDHVvq3rkceRbfh8qY5rftZpOd55wSbbTwJAMT74OsiGqzETl5DJZH9vbPwWab4E2znCtZ8AVuJNtLwwNdj8KIZb0VKzpXdQYvuoFxK1uGKoVfiR2Tr6U5c9B1NPsdt5ZlJX693zT2fzSuFZWpajtQJ6z5vvRKVbQmU5i/6y7Z7b+iNOPy0HAzCYl6e7vc+gtI9QrDkkrMN4npiCBzNP/btIQBoA9xLtmalEG7f9vdpqL+9zLriuNbWtZKS3MFhG5uvLCHVm4U2FFVLctYKTX1cRZ6IvK0XXuqKUxOqtljXvM6jbVnX8sCYMaYlBo/NseLINtdmg++10uQ=="
+            },
+            "password": "{enc}JdgDjIcBLRhGiwjfGHPIB1voD97IB2aLb4YFmN5wJdVBYMb32QkFM1lQ6oOmZzPiQbceZriZeyNdin63SNKmqembcqjol/keTgpRgQhUv/1gHMoZbselpq+3BfvSyi+4QL60SknKq1MxMPgaBPSUgJduLMnzV44EOfZUKfU3/EBRhwBskxRBQScVEnKkCZYpmp/nDTrfEQTSpaa/3edwOL7FjD4SECrQLd2tGgbyvQYWBN8p8sCpssLc6JADS2Zyd+KjVgDpeENhq/jT8094dMAAWI2xOmYUIYH7T8DYbmafEIcoHy1Yqojo5pgZlxBSe2vp/EUOUkhr4k/QvrVC7Q==",
+            "user": "{enc}Bbih4RCoG2SJxtencufm81Nz0vwvIbj6jnW8AX1T6cbWgnLJFGMvUWWOlTchdBV1JunBwyzVz18oxoLuaypwW3XZMEAhahz/lnk3y9puILiEZhOVgr/jftTiqDg8OHF8OoWVTh/2h9Gxs15nrGGK7/f9MC7Wir8dGM0clcH41NLNnE1qHVLI/3KcS6SvOURdwvMEALZiYCoYPOiOYunmRcmLA3UXKPIYcICYxc2BFrQEqWpO7eLDJDkyZhjsNAascKl+/NGw3kJPHAOe65mqHD5wGE6B4rgsu2U+LajoSsl4S979gJrR+JRGuk09Pdro6Kx9z/YRwlLFJVvejMXfDw=="
+          },
+          "table": {
+            "column": [
+              {
+                "datatype": "varchar(92)",
+                "description": "AGREEMENT_NAME",
+                "label": "AGREEMENT_NAME",
+                "name": "AGREEMENT_NAME",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(77)",
+                "description": "ASSIGNEE",
+                "label": "ASSIGNEE",
+                "name": "ASSIGNEE",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(35)",
+                "description": "ASSIGNEE_ROLE",
+                "label": "ASSIGNEE_ROLE",
+                "name": "ASSIGNEE_ROLE",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(10)",
+                "description": "BUSINESS_TYPE_NM",
+                "label": "BUSINESS_TYPE_NM",
+                "name": "BUSINESS_TYPE_NM",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(50)",
+                "description": "COUNTRY_ASSIGNEE",
+                "label": "COUNTRY_ASSIGNEE",
+                "name": "COUNTRY_ASSIGNEE",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cCountry",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(16)",
+                "description": "CURRENT_STATUS",
+                "label": "CURRENT_STATUS",
+                "name": "CURRENT_STATUS",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(26)",
+                "description": "DATEDUE",
+                "label": "DATEDUE",
+                "name": "DATEDUE",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(45)",
+                "description": "DELIVERY_MANAGER",
+                "label": "DELIVERY_MANAGER",
+                "name": "DELIVERY_MANAGER",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(43)",
+                "description": "EMAIL_ADDRESS_ASSIGNEE",
+                "label": "EMAIL_ADDRESS_ASSIGNEE",
+                "name": "EMAIL_ADDRESS_ASSIGNEE",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cStreetAddress",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(43)",
+                "description": "LAST_UPDATED_BY",
+                "label": "LAST_UPDATED_BY",
+                "name": "LAST_UPDATED_BY",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(26)",
+                "description": "LAST_UPDATED_ON",
+                "label": "LAST_UPDATED_ON",
+                "name": "LAST_UPDATED_ON",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(26)",
+                "description": "OPENED_DATE",
+                "label": "OPENED_DATE",
+                "name": "OPENED_DATE",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(321)",
+                "description": "PROBLEM_SHORT_DESCRIPTION",
+                "label": "PROBLEM_SHORT_DESCRIPTION",
+                "name": "PROBLEM_SHORT_DESCRIPTION",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(57)",
+                "description": "PROJECT_NAME",
+                "label": "PROJECT_NAME",
+                "name": "PROJECT_NAME",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(105)",
+                "description": "SERVERNAME",
+                "label": "SERVERNAME",
+                "name": "SERVERNAME",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "smallint",
+                "description": "SEVERITY",
+                "label": "SEVERITY",
+                "name": "SEVERITY",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "varchar(8)",
+                "description": "STATUS",
+                "label": "STATUS",
+                "name": "STATUS",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(43)",
+                "description": "SUBMITTER",
+                "label": "SUBMITTER",
+                "name": "SUBMITTER",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(35)",
+                "description": "SUB_TICKET_TYPE",
+                "label": "SUB_TICKET_TYPE",
+                "name": "SUB_TICKET_TYPE",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(78)",
+                "description": "TICKET_ID",
+                "label": "TICKET_ID",
+                "name": "TICKET_ID",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              }
+            ],
+            "name": "ICD_TICKET_OVERDUE_REPORT"
+          },
+          "xsd": "https://ibm.com/daas/module/1.0/module.xsd"
+        },
+        "name": "ICD.ICD_TICKET_OVERDUE_REPORT",
+        "shaping": {
+          "shapingId": "shaping0000016b8efe42d4_00000000",
+          "embeddedModuleUpToDate": false,
+          "moserJSON": {
+            "version": "5.0.1",
+            "container": "C",
+            "useSpec": [
+              {
+                "identifier": "ES",
+                "type": "url",
+                "storeID": "baseModule",
+                "imports": "*"
+              }
+            ],
+            "expressionLocale": "en-us",
+            "calculation": [
+              {
+                "expression": " COUNT( ICD_TICKET_OVERDUE_REPORT.TICKET_ID)",
+                "usage": "fact",
+                "datatype": "LONG",
+                "nullable": true,
+                "regularAggregate": "calculated",
+                "datatypeCategory": "number",
+                "highlevelDatatype": "integer",
+                "facetDefinition": {
+                  "enabled": "automatic"
+                },
+                "identifier": "TICKET_COUNT",
+                "label": "TICKET COUNT",
+                "property": [
+                  {
+                    "name": "ui_expr",
+                    "value": "{\"func\":\"customCalculation\",\"version\":\"5.0.1\"}"
+                  }
+                ],
+                "propertyOverride": [
+                  "NEW"
+                ]
+              },
+              {
+                "expression": "substring( ICD_TICKET_OVERDUE_REPORT.SEVERITY,1,1)",
+                "usage": "attribute",
+                "datatype": "VARCHAR(6)",
+                "nullable": true,
+                "regularAggregate": "minimum",
+                "datatypeCategory": "string",
+                "highlevelDatatype": "string",
+                "facetDefinition": {
+                  "enabled": "automatic"
+                },
+                "identifier": "INTERNAL_PRIORITY",
+                "label": "INTERNAL PRIORITY",
+                "property": [
+                  {
+                    "name": "ui_expr",
+                    "value": "{\"func\":\"customCalculation\",\"version\":\"5.0.1\"}"
+                  }
+                ],
+                "propertyOverride": [
+                  "NEW"
+                ]
+              }
+            ],
+            "metadataTreeView": [
+              {
+                "folderItem": [
+                  {
+                    "ref": "TICKET_COUNT"
+                  },
+                  {
+                    "ref": "INTERNAL_PRIORITY"
+                  }
+                ]
+              }
+            ],
+            "dataRetrievalMode": "liveConnection",
+            "identifier": "newModel",
+            "label": "newModel"
+          }
+        }
+      },
+      {
+        "id": "model0000016c03d2b412_00000000",
+        "assetId": "assetId0000016c03d2b40f_00000000",
+        "clientId": "eyJwcm9qZWN0IjoiQVBQT1BTX0FOQUxZVElDUyIsIm5hbWUiOiJTQUFTSUNELlNBQVNJQ0RfQ0JTX09WRVJEVUVfRFVNUCIsInR5cGUiOiJCaWdTUUwifQ==",
+        "module": {
+          "identifier": "aSAASICD_CBS_OVERDUE_DUMP",
+          "label": "SAASICD_CBS_OVERDUE_DUMP",
+          "source": {
+            "id": "SAASICD_CBS_OVERDUE_DUMP",
+            "jdbc": {
+              "connectionProperties": "",
+              "driverClassName": "com.ibm.db2.jcc.DB2Driver",
+              "jdbcUrl": "{enc}Kaei8/Y1ZKNFaPaBHjulNvw4R++3dd9Gy53+Lja/XlZ4OdvGp5j4whGHTLZC+/wm0xZsRaTVEuvBoNVFgPYg6Wv4COzUgxYdOHTzl5T9PqaD7Yw4JJGBVBNm4QWpC45jemLyK1JSagEAOKVuuedUF+ouiqn9Bi/9cSAvR4KiiStOEFGwpNHg7GqsyYgq1vWRQgThSxaYiA4iJD1DXq3UVgSJSOaON6Er4tHOQTeD1ekqt67QSeStYHlFIp3xdi+YBraRdxCWOQQgdl5Ud1rn0G5/p2GUXER9gw5JMAqA+BFzGFuXYU6WOB7JAlZ6lLMa7A14uFuAzER9nNNGHNThMQ==",
+              "schema": "{enc}NZsuO/nA2pfs6AxPsFW0aECQN0iiLzsuQrrEIOCtjJRHd37w+lyAup6JmCPqTA4ziiB6a/RG55jeY7v/a8p1IDsk/dkO9ybaPBo1CykOLVq5gMDObMcwcnVvekL35/I3/KLM1e8nnChTd5cmYEJP1aj6TcLkBgu6P9GEG+LniYcwwwhGVsJjiRRMEy4ljbapfaRWsyiD65De6YLwNJSwXvKYw97yY/DEhSIeZPEjPCND/ChkBZrYKSDaDlAMofi9GthVQUgUfiwuwQabsmNzeSkCejW7MOqPTiOwNhxoQCO5qCZ7fVGCA7CQqnN2yV1yYeX9+Kqmr3lv2VSJPtNSRw=="
+            },
+            "password": "{enc}az0Q7ghPl4U/pL6D1oqSUgShIgalisx+YGlyayXtMqFsrVye1+1pjiFVAaMjEu/I06OJ0ITflyPzN3Go2+haxsWvmH+h7KkGdoeyEgPs1Tmd6WYWyXDaEMjPj/C/g8po5OHqEpNN+qLAsuYGhj5RboxC61hQZcWCPbAetUpeF15EdEz/LnAW9PKT+3ORGmeDWef48E5CRhmvu35sjcUO+AbH8VbyL8GnPoGVUM+CjWMeYzvE+G9N4TETJLj4hvr4xz1mtXF8K+KNf/ENMTSfwMBW/VrR+oV6kbv/aCzCfrAXhEcWXhgn6z0MbNo+j2Mrlope/hOGdkKSqTseqO9FTA==",
+            "user": "{enc}mIFn2+x5lcWQzH/2SVIjSot+qmqL1SwnGPAPDr4VllVtB/MW5cn7Diq+OmGYMFHg+eXtBypZP1okedfXkWql3KmhK5PXD3n21lHdmXDAnQY9bzXcqk7Jq5xoLjLy2D7WbhVK2aOtS9rxhMDZ7Nwy8M6sGASDo/B4CDpfPsx9RNkmFwAkbp73yo9ZKGe5KtarQz2QWjiek1RgyoydIJ9Bh1OGuy9IXdfe6y9KEFyR/5kVpNoL3O+bcP7TOf33xiTu4vnI0jRx3Gp09R08y8xxrdtvnToFK8Oi92YOctgmO5Zbv+zrROSCCrjmJi1KoKTiUlSpgXeasuqS6TC6V2ljdw=="
+          },
+          "table": {
+            "column": [
+              {
+                "datatype": "varchar(9)",
+                "description": "accumulatedholdtime_text",
+                "label": "accumulatedholdtime_text",
+                "name": "accumulatedholdtime_text",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(28)",
+                "description": "actualfinish",
+                "label": "actualfinish",
+                "name": "actualfinish",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(28)",
+                "description": "actualstart",
+                "label": "actualstart",
+                "name": "actualstart",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(28)",
+                "description": "adjustedtargetresolutiontime",
+                "label": "adjustedtargetresolutiontime",
+                "name": "adjustedtargetresolutiontime",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(28)",
+                "description": "adjustedtargetresponsetime",
+                "label": "adjustedtargetresponsetime",
+                "name": "adjustedtargetresponsetime",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(32)",
+                "description": "assignedownergroup",
+                "label": "assignedownergroup",
+                "name": "assignedownergroup",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(10)",
+                "description": "classificationid",
+                "label": "classificationid",
+                "name": "classificationid",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(28)",
+                "description": "creationdate",
+                "label": "creationdate",
+                "name": "creationdate",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(186)",
+                "description": "description",
+                "label": "description",
+                "name": "description",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(5)",
+                "description": "failurecode",
+                "label": "failurecode",
+                "name": "failurecode",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "smallint",
+                "description": "internalpriority",
+                "label": "internalpriority",
+                "name": "internalpriority",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "varchar(30)",
+                "description": "owner",
+                "label": "owner",
+                "name": "owner",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(32)",
+                "description": "ownergroup",
+                "label": "ownergroup",
+                "name": "ownergroup",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(2099)",
+                "description": "params_where",
+                "label": "params_where",
+                "name": "params_where",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(30)",
+                "description": "reportedby",
+                "label": "reportedby",
+                "name": "reportedby",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(8)",
+                "description": "siteid",
+                "label": "siteid",
+                "name": "siteid",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(7)",
+                "description": "solution",
+                "label": "solution",
+                "name": "solution",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(5)",
+                "description": "source",
+                "label": "source",
+                "name": "source",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(7)",
+                "description": "status",
+                "label": "status",
+                "name": "status",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(28)",
+                "description": "statusdate",
+                "label": "statusdate",
+                "name": "statusdate",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(28)",
+                "description": "targetfinish",
+                "label": "targetfinish",
+                "name": "targetfinish",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(28)",
+                "description": "targetstart",
+                "label": "targetstart",
+                "name": "targetstart",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "varchar(10)",
+                "description": "ticketid",
+                "label": "ticketid",
+                "name": "ticketid",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "smallint",
+                "description": "total_rec",
+                "label": "total_rec",
+                "name": "total_rec",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              }
+            ],
+            "name": "SAASICD_CBS_OVERDUE_DUMP"
+          },
+          "xsd": "https://ibm.com/daas/module/1.0/module.xsd"
+        },
+        "name": "SAASICD.SAASICD_CBS_OVERDUE_DUMP",
+        "shaping": {
+          "shapingId": "shaping0000016c03d804ea_00000000",
+          "embeddedModuleUpToDate": false,
+          "moserJSON": {
+            "version": "5.0.1",
+            "container": "C",
+            "useSpec": [
+              {
+                "identifier": "ES",
+                "type": "url",
+                "storeID": "baseModule",
+                "imports": "*"
+              }
+            ],
+            "expressionLocale": "en-us",
+            "calculation": [
+              {
+                "expression": "substring(SAASICD_CBS_OVERDUE_DUMP.creationdate,1,10)",
+                "usage": "attribute",
+                "datatype": "VARCHAR(28)",
+                "nullable": true,
+                "regularAggregate": "minimum",
+                "datatypeCategory": "string",
+                "highlevelDatatype": "string",
+                "facetDefinition": {
+                  "enabled": "automatic"
+                },
+                "identifier": "TICKET_DATE",
+                "label": "TICKET DATE",
+                "property": [
+                  {
+                    "name": "ui_expr",
+                    "value": "{\"func\":\"customCalculation\",\"version\":\"5.0.1\"}"
+                  }
+                ],
+                "propertyOverride": [
+                  "NEW"
+                ]
+              },
+              {
+                "expression": "count( SAASICD_CBS_OVERDUE_DUMP.ticketid)",
+                "usage": "fact",
+                "datatype": "LONG",
+                "nullable": true,
+                "regularAggregate": "calculated",
+                "datatypeCategory": "number",
+                "highlevelDatatype": "integer",
+                "facetDefinition": {
+                  "enabled": "automatic"
+                },
+                "identifier": "TICKET_COUNT",
+                "label": "TICKET COUNT",
+                "property": [
+                  {
+                    "name": "ui_expr",
+                    "value": "{\"func\":\"customCalculation\",\"version\":\"5.0.1\"}"
+                  }
+                ],
+                "propertyOverride": [
+                  "NEW"
+                ]
+              }
+            ],
+            "metadataTreeView": [
+              {
+                "folderItem": [
+                  {
+                    "ref": "TICKET_DATE"
+                  },
+                  {
+                    "ref": "TICKET_COUNT"
+                  }
+                ]
+              }
+            ],
+            "dataRetrievalMode": "liveConnection",
+            "identifier": "newModel",
+            "label": "newModel"
+          }
+        }
+      }
+    ]
+  },
+  "pageContext": [],
+  "drillThrough": [],
+  "widgets": {
+    "model0000016b8ef8ff79_00000000": {
+      "id": "model0000016b8ef8ff79_00000000",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016b8ef88d64_00000001",
+            "dataItems": [
+              {
+                "id": "model0000016b8ef93c03_00000001",
+                "itemId": "ICD_TICKET_OVERDUE_REPORT.COUNTRY_ASSIGNEE",
+                "itemLabel": "COUNTRY_ASSIGNEE"
+              },
+              {
+                "id": "model0000016b8ef9e021_00000001",
+                "itemId": "TICKET_COUNT",
+                "itemLabel": "TICKET COUNT"
+              },
+              {
+                "id": "model0000016b8efc0b11_00000000",
+                "itemId": "ICD_TICKET_OVERDUE_REPORT.SEVERITY",
+                "itemLabel": "SEVERITY"
+              }
+            ],
+            "id": "model0000016b8ef93c03_00000000"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model0000016b8ef93c03_00000001"
+            ],
+            "caption": "Bars",
+            "id": "categories",
+            "layerId": "data"
+          },
+          {
+            "name": "values",
+            "dataItems": [
+              "model0000016b8ef9e021_00000001"
+            ],
+            "caption": "Length",
+            "id": "values",
+            "layerId": "data"
+          },
+          {
+            "name": "color",
+            "dataItems": [
+              "model0000016b8efc0b11_00000000"
+            ],
+            "caption": "Color",
+            "id": "color",
+            "layerId": "data"
+          }
+        ]
+      },
+      "type": "live",
+      "visId": "com.ibm.vis.rave2bundlecolumn",
+      "name": {
+        "translationTable": {}
+      },
+      "localFilters": []
+    },
+    "model0000016b8efea8a2_00000000": {
+      "id": "model0000016b8efea8a2_00000000",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016b8ef88d64_00000001",
+            "dataItems": [
+              {
+                "id": "model0000016b8f006f3b_00000000",
+                "itemId": "TICKET_COUNT",
+                "itemLabel": "TICKET COUNT"
+              },
+              {
+                "id": "model0000016b8f009c3a_00000000",
+                "itemId": "ICD_TICKET_OVERDUE_REPORT.SUB_TICKET_TYPE",
+                "itemLabel": "SUB_TICKET_TYPE"
+              }
+            ],
+            "id": "model0000016b8f006f37_00000000"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "row_level1",
+            "dataItems": [
+              "model0000016b8f009c3a_00000000"
+            ],
+            "caption": "Rows",
+            "id": "row_level1"
+          },
+          {
+            "name": "values",
+            "dataItems": [
+              "model0000016b8f006f3b_00000000"
+            ],
+            "caption": "Values",
+            "id": "values"
+          }
+        ]
+      },
+      "type": "live",
+      "visId": "crosstab",
+      "name": {
+        "translationTable": {}
+      }
+    },
+    "model0000016b8f16e1ea_00000000": {
+      "id": "model0000016b8f16e1ea_00000000",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016b8ef88d64_00000001",
+            "dataItems": [
+              {
+                "id": "model0000016b8f172829_00000000",
+                "itemId": "ICD_TICKET_OVERDUE_REPORT.COUNTRY_ASSIGNEE",
+                "itemLabel": "COUNTRY_ASSIGNEE"
+              },
+              {
+                "id": "model0000016b8f173b57_00000000",
+                "itemId": "ICD_TICKET_OVERDUE_REPORT.SEVERITY",
+                "itemLabel": "SEVERITY"
+              }
+            ],
+            "id": "model0000016b8f172828_00000000"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model0000016b8f172829_00000000"
+            ],
+            "dataItemSettings": [],
+            "caption": "Segments",
+            "id": "categories"
+          },
+          {
+            "name": "values",
+            "dataItems": [
+              "model0000016b8f173b57_00000000"
+            ],
+            "caption": "Size",
+            "id": "values"
+          }
+        ]
+      },
+      "type": "live",
+      "visId": "com.ibm.vis.rave2bundlepie",
+      "name": {
+        "translationTable": {}
+      }
+    },
+    "model0000016c03d3d4f5_00000000": {
+      "id": "model0000016c03d3d4f5_00000000",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016c03d2b412_00000000",
+            "dataItems": [
+              {
+                "id": "model0000016c03d71a74_00000000",
+                "itemId": "TICKET_DATE",
+                "itemLabel": "TICKET DATE",
+                "selection": [
+                  {
+                    "operation": "order",
+                    "sort": {
+                      "type": "asc",
+                      "priority": 0,
+                      "by": "caption"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "model0000016c03d8057b_00000000",
+                "itemId": "TICKET_COUNT",
+                "itemLabel": "TICKET COUNT"
+              }
+            ],
+            "id": "model0000016c03d407d6_00000000"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model0000016c03d71a74_00000000"
+            ],
+            "dataItemSettings": [],
+            "caption": "Bars",
+            "id": "categories",
+            "layerId": "data"
+          },
+          {
+            "name": "values",
+            "dataItems": [
+              "model0000016c03d8057b_00000000"
+            ],
+            "caption": "Length",
+            "id": "values",
+            "layerId": "data"
+          }
+        ]
+      },
+      "type": "live",
+      "visId": "com.ibm.vis.rave2bundlecolumn",
+      "name": {
+        "translationTable": {}
+      },
+      "localFilters": []
+    },
+    "model0000016c03f0784a_00000000": {
+      "id": "model0000016c03f0784a_00000000",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016c03d2b412_00000000",
+            "dataItems": [
+              {
+                "id": "model0000016c03f0a135_00000001",
+                "itemId": "TICKET_COUNT",
+                "itemLabel": "TICKET COUNT"
+              },
+              {
+                "id": "model0000016c03f0b474_00000000",
+                "itemId": "TICKET_DATE",
+                "itemLabel": "TICKET DATE"
+              },
+              {
+                "id": "model0000016c03f1eb6a_00000000",
+                "itemId": "SAASICD_CBS_OVERDUE_DUMP.status",
+                "itemLabel": "status"
+              }
+            ],
+            "id": "model0000016c03f0a135_00000000"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model0000016c03f0b474_00000000"
+            ],
+            "dataItemSettings": [],
+            "caption": "Bars",
+            "id": "categories",
+            "layerId": "data"
+          },
+          {
+            "name": "values",
+            "dataItems": [
+              "model0000016c03f0a135_00000001"
+            ],
+            "caption": "Length",
+            "id": "values",
+            "layerId": "data"
+          },
+          {
+            "name": "color",
+            "dataItems": [
+              "model0000016c03f1eb6a_00000000"
+            ],
+            "caption": "Color",
+            "id": "color",
+            "layerId": "data"
+          }
+        ]
+      },
+      "type": "live",
+      "visId": "com.ibm.vis.rave2bundlestackedcolumn",
+      "name": {
+        "translationTable": {}
+      },
+      "localFilters": []
+    },
+    "model0000016c03f2fff1_00000000": {
+      "id": "model0000016c03f2fff1_00000000",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016c03d2b412_00000000",
+            "dataItems": [
+              {
+                "id": "model0000016c03f3215f_00000001",
+                "itemId": "TICKET_COUNT",
+                "itemLabel": "TICKET COUNT"
+              },
+              {
+                "id": "model0000016c03f332b9_00000001",
+                "itemId": "SAASICD_CBS_OVERDUE_DUMP.status",
+                "itemLabel": "status"
+              }
+            ],
+            "id": "model0000016c03f3215f_00000000"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "values",
+            "dataItems": [
+              "model0000016c03f3215f_00000001"
+            ],
+            "caption": "Size",
+            "id": "values"
+          },
+          {
+            "name": "categories",
+            "dataItems": [
+              "model0000016c03f332b9_00000001"
+            ],
+            "dataItemSettings": [],
+            "caption": "Segments",
+            "id": "categories"
+          }
+        ]
+      },
+      "type": "live",
+      "visId": "com.ibm.vis.rave2bundlepie",
+      "name": {
+        "translationTable": {}
+      }
+    }
+  }
+}

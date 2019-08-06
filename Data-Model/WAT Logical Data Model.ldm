@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.5.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:LogicalDataModel="http:///com/ibm/db/models/logical/logical.ecore" xmlns:datanotation="http:///datanotation.ecore" xmlns:ilvglnotation="http://www.ilog.com/views/8.5.0/LayoutNotationExtensionDefinition" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <LogicalDataModel:Package xmi:id="_8I0OAI2vEemn6Yq1DzTXXQ" name="Package1" targetNamespace="WAT Logical Data Model.ldm" namespaceSupported="true" contents="_KYIaII21Eemn6Yq1DzTXXQ">
+    <eAnnotations xmi:id="_8I0OAY2vEemn6Yq1DzTXXQ" source="diagram">
+      <contents xsi:type="datanotation:DataDiagram" xmi:id="_8I0OAo2vEemn6Yq1DzTXXQ" type="IE_CrowFoot" name="Diagram1" viewKind="ProjectExplorer" notation="IE_CrowFoot">
+        <eAnnotations xmi:id="_8I0OA42vEemn6Yq1DzTXXQ" source="Diagram_State">
+          <details xmi:id="_8I0OBI2vEemn6Yq1DzTXXQ" key="Diagram_State_Value" value="true"/>
+        </eAnnotations>
+        <children xmi:id="_KYOgwI21Eemn6Yq1DzTXXQ" element="_KYIaII21Eemn6Yq1DzTXXQ">
+          <children xsi:type="notation:Shape" xmi:id="_KYauAI21Eemn6Yq1DzTXXQ" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KYauAY21Eemn6Yq1DzTXXQ"/>
+          </children>
+          <children xmi:id="_KYauAo21Eemn6Yq1DzTXXQ" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_rLY_YI22Eemn6Yq1DzTXXQ" type="IEEntityKey" element="_PCFAwI21Eemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_rLY_YY22Eemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KYauA421Eemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KYauBI21Eemn6Yq1DzTXXQ" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QnqegY21Eemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_QnqegI21Eemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Qnqego21Eemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QpN9sY21Eemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_QpN9sI21Eemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QpN9so21Eemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_Qq708Y21Eemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_Qq708I21Eemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Qq708o21Eemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QspsMI21Eemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_QsjlkI21Eemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QspsMY21Eemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QuXjcY21Eemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_QuXjcI21Eemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QuXjco21Eemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_Qv_UEY21Eemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_Qv_UEI21Eemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Qv_UEo21Eemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_Qx_fMI21Eemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_Qx5YkI21Eemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Qx_fMY21Eemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_Qz5jsI21Eemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_QztWcI21Eemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Qz5jsY21Eemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_Q15u0I21Eemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_Q1zoMI21Eemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Q15u0Y21Eemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KYauBY21Eemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_KYauBo21Eemn6Yq1DzTXXQ" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_KYauCI21Eemn6Yq1DzTXXQ" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KYauCY21Eemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KYauB421Eemn6Yq1DzTXXQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_KYOgwY21Eemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_KYUnYI21Eemn6Yq1DzTXXQ" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_KYOgwo21Eemn6Yq1DzTXXQ" x="21653" y="1968"/>
+        </children>
+        <styles xsi:type="datanotation:DataAttributeStyle" xmi:id="_8I0OBY2vEemn6Yq1DzTXXQ"/>
+        <styles xsi:type="datanotation:DataCompartmentStyle" xmi:id="_8I0OBo2vEemn6Yq1DzTXXQ"/>
+        <styles xsi:type="datanotation:DataDisplayStyle" xmi:id="_8I0OB42vEemn6Yq1DzTXXQ"/>
+        <styles xsi:type="datanotation:DataDiagramRelationshipStyle" xmi:id="_8I0OCI2vEemn6Yq1DzTXXQ"/>
+        <styles xsi:type="datanotation:DataShapeNameStyle" xmi:id="_8I0OCY2vEemn6Yq1DzTXXQ"/>
+        <styles xsi:type="datanotation:DataDiagramFormattingStyle" xmi:id="_8I0OCo2vEemn6Yq1DzTXXQ"/>
+        <styles xsi:type="datanotation:ConnectionLayerStyle" xmi:id="_8I0OC42vEemn6Yq1DzTXXQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_8I0ODI2vEemn6Yq1DzTXXQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_8I0ODY2vEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+        <styles xsi:type="ilvglnotation:LayoutStyle" xmi:id="_8I0ODo2vEemn6Yq1DzTXXQ" graphLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.7.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalLinkOffset&lt;/string>&#xA;   &lt;float>150.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>levelingStrategy&lt;/string>&#xA;   &lt;int>1&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>flowDirection&lt;/string>&#xA;   &lt;int>4&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalLinkOffset&lt;/string>&#xA;   &lt;float>150.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalNodeLinkOffset&lt;/string>&#xA;   &lt;float>500.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>globalLinkStyle&lt;/string>&#xA;   &lt;int>2&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalNodeLinkOffset&lt;/string>&#xA;   &lt;float>500.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalNodeOffset&lt;/string>&#xA;   &lt;float>1000.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>layout&lt;/string>&#xA;   &lt;string>ilog.views.eclipse.graphlayout.runtime.hierarchical.IlvHierarchicalLayout&lt;/string>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalNodeOffset&lt;/string>&#xA;   &lt;float>1000.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>levelJustification&lt;/string>&#xA;   &lt;int>16&lt;/int>&#xA;  &lt;/void>&#xA; &lt;/object>&#xA;&lt;/java>&#xA;" linkLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.7.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;/>&#xA;&lt;/java>&#xA;" labelLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.7.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;/>&#xA;&lt;/java>&#xA;"/>
+      </contents>
+    </eAnnotations>
+  </LogicalDataModel:Package>
+  <LogicalDataModel:Entity xmi:id="_KYIaII21Eemn6Yq1DzTXXQ" name="WHDATA" package="_8I0OAI2vEemn6Yq1DzTXXQ" namespace="WAT Logical Data Model.ldm/Package1">
+    <attributes xmi:id="_PCFAwI21Eemn6Yq1DzTXXQ" name="NRCRT" namespace="WAT Logical Data Model.ldm/Package1/WHDATA" dataType="CHAR(5)" required="true"/>
+    <attributes xmi:id="_QnqegI21Eemn6Yq1DzTXXQ" name="USERMAIL" namespace="WAT Logical Data Model.ldm/Package1/WHDATA" dataType="CHAR(5)"/>
+    <attributes xmi:id="_QpN9sI21Eemn6Yq1DzTXXQ" name="PROJECTID" namespace="WAT Logical Data Model.ldm/Package1/WHDATA" dataType="CHAR(5)"/>
+    <attributes xmi:id="_Qq708I21Eemn6Yq1DzTXXQ" name="DATEINSERT" namespace="WAT Logical Data Model.ldm/Package1/WHDATA" dataType="CHAR(5)"/>
+    <attributes xmi:id="_QsjlkI21Eemn6Yq1DzTXXQ" name="REPORTEDDATE" namespace="WAT Logical Data Model.ldm/Package1/WHDATA" dataType="CHAR(5)"/>
+    <attributes xmi:id="_QuXjcI21Eemn6Yq1DzTXXQ" name="EFFORTHOURS" namespace="WAT Logical Data Model.ldm/Package1/WHDATA" dataType="CHAR(5)"/>
+    <attributes xmi:id="_Qv_UEI21Eemn6Yq1DzTXXQ" name="DETAILS" namespace="WAT Logical Data Model.ldm/Package1/WHDATA" dataType="CHAR(5)"/>
+    <attributes xmi:id="_Qx5YkI21Eemn6Yq1DzTXXQ" name="PROJECTTYPE" namespace="WAT Logical Data Model.ldm/Package1/WHDATA" dataType="CHAR(5)"/>
+    <attributes xmi:id="_QztWcI21Eemn6Yq1DzTXXQ" name="PROJECTNAME" namespace="WAT Logical Data Model.ldm/Package1/WHDATA" dataType="CHAR(5)"/>
+    <attributes xmi:id="_Q1zoMI21Eemn6Yq1DzTXXQ" name="REPFORTEAM" namespace="WAT Logical Data Model.ldm/Package1/WHDATA" dataType="CHAR(5)"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_rLMyII22Eemn6Yq1DzTXXQ" name="PrimaryKey" attributes="_PCFAwI21Eemn6Yq1DzTXXQ"/>
+  </LogicalDataModel:Entity>
+</xmi:XMI>

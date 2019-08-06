@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.5.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:LogicalDataModel="http:///com/ibm/db/models/logical/logical.ecore" xmlns:datanotation="http:///datanotation.ecore" xmlns:ilvglnotation="http://www.ilog.com/views/8.5.0/LayoutNotationExtensionDefinition" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <LogicalDataModel:Package xmi:id="_Nxm0YI3WEemn6Yq1DzTXXQ" name="Package1" targetNamespace="AOL Logical Data Model.ldm" namespaceSupported="true" contents="_O4vbkI3WEemn6Yq1DzTXXQ _PPZoEI3WEemn6Yq1DzTXXQ _Pnew4I3WEemn6Yq1DzTXXQ _P_foQI3WEemn6Yq1DzTXXQ _QdqyAI3WEemn6Yq1DzTXXQ _Q7CqgI3WEemn6Yq1DzTXXQ _RYrBsI3WEemn6Yq1DzTXXQ _R2u2sI3WEemn6Yq1DzTXXQ _SUUKkI3WEemn6Yq1DzTXXQ">
+    <eAnnotations xmi:id="_Nxm0YY3WEemn6Yq1DzTXXQ" source="diagram">
+      <contents xsi:type="datanotation:DataDiagram" xmi:id="_Nxm0Yo3WEemn6Yq1DzTXXQ" type="IE_CrowFoot" name="Diagram1" viewKind="ProjectExplorer" notation="IE_CrowFoot">
+        <eAnnotations xmi:id="_Nxm0Y43WEemn6Yq1DzTXXQ" source="Diagram_State">
+          <details xmi:id="_Nxm0ZI3WEemn6Yq1DzTXXQ" key="Diagram_State_Value" value="true"/>
+        </eAnnotations>
+        <children xmi:id="_O4x30I3WEemn6Yq1DzTXXQ" element="_O4vbkI3WEemn6Yq1DzTXXQ">
+          <children xsi:type="notation:Shape" xmi:id="_O47BwI3WEemn6Yq1DzTXXQ" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_O47BwY3WEemn6Yq1DzTXXQ"/>
+          </children>
+          <children xmi:id="_O47Bwo3WEemn6Yq1DzTXXQ" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_Zg2j4JZUEemdBMA3IHcE0w" type="IEEntityKey" element="_pTwh0I3WEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Zg2j4ZZUEemdBMA3IHcE0w"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_O47Bw43WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_O47BxI3WEemn6Yq1DzTXXQ" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_pUyckI3WEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_pUwnYI3WEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_pUyckY3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_pWS4cI3WEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_pWP1II3WEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_pWS4cY3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_pX1wkI3WEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_pXz7YI3WEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_pX1wkY3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_pZk18I3WEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_pZiZsI3WEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_pZk18Y3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_pbKKUI3WEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_pbI8MI3WEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_pbKKUY3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_pcu3oI3WEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_pctCcI3WEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_pcu3oY3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_peYdcI3WEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_peWoQI3WEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_peYdcY3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_O47BxY3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_O47o0I3WEemn6Yq1DzTXXQ" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_O47o0o3WEemn6Yq1DzTXXQ" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_O47o043WEemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_O47o0Y3WEemn6Yq1DzTXXQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_O4x30Y3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_O4ye4I3WEemn6Yq1DzTXXQ" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_O4x30o3WEemn6Yq1DzTXXQ" x="24828" y="-297"/>
+        </children>
+        <children xmi:id="_PPegkI3WEemn6Yq1DzTXXQ" element="_PPZoEI3WEemn6Yq1DzTXXQ">
+          <children xsi:type="notation:Shape" xmi:id="_PPo4oI3WEemn6Yq1DzTXXQ" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_PPo4oY3WEemn6Yq1DzTXXQ"/>
+          </children>
+          <children xmi:id="_PPo4oo3WEemn6Yq1DzTXXQ" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_YbdpIZZUEemdBMA3IHcE0w" type="IEEntityKey" element="_5l7v0I3WEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YbdpIpZUEemdBMA3IHcE0w"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_PPo4o43WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_PPo4pI3WEemn6Yq1DzTXXQ" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_5nOwUI3WEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_5nLF8I3WEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_5nOwUY3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_5pD8UI3WEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_5pCHII3WEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_5pD8UY3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_5quwQI3WEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_5qs7EI3WEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_5quwQY3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_5sjVMI3WEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_5secsI3WEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_5sjVMY3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_5uUPwI3WEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_5uSakI3WEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_5uUPwY3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_5wnV0I3WEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_5wlgoI3WEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_5wnV0Y3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_6UTRsI3WEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_6URcgI3WEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6UTRsY3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_PPpfsI3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_PPpfsY3WEemn6Yq1DzTXXQ" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_PPpfs43WEemn6Yq1DzTXXQ" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_PPpftI3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_PPpfso3WEemn6Yq1DzTXXQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_PPegkY3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_PPegk43WEemn6Yq1DzTXXQ" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_PPegko3WEemn6Yq1DzTXXQ" x="18711" y="-339"/>
+        </children>
+        <children xmi:id="_PnjpYI3WEemn6Yq1DzTXXQ" element="_Pnew4I3WEemn6Yq1DzTXXQ">
+          <children xsi:type="notation:Shape" xmi:id="_PnrlMI3WEemn6Yq1DzTXXQ" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_PnrlMY3WEemn6Yq1DzTXXQ"/>
+          </children>
+          <children xmi:id="_PnrlMo3WEemn6Yq1DzTXXQ" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_WZl4AJZUEemdBMA3IHcE0w" type="IEEntityKey" element="_I7kdEI3XEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_WZl4AZZUEemdBMA3IHcE0w"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_PnrlM43WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_PnsMQI3WEemn6Yq1DzTXXQ" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_JiUUAI3XEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_JiQpoI3XEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_JiUUAY3XEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_JlPsMI3XEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_JlOeEI3XEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_JlPsMY3XEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_Jjrl8I3XEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_JjpwwI3XEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Jjrl8Y3XEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_JmzycI3XEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_JmykUI3XEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_JmzycY3XEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_JoRyEI3XEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_JoNgoI3XEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_JoRyEY3XEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_JpzcEI3XEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_JpwYwI3XEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_JpzcEY3XEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_JrWUMI3XEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_JrUfAI3XEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_JrWUMY3XEemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_PnsMQY3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_PnsMQo3WEemn6Yq1DzTXXQ" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_PnsMRI3WEemn6Yq1DzTXXQ" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_PnsMRY3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_PnsMQ43WEemn6Yq1DzTXXQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_PnjpYY3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_PnjpY43WEemn6Yq1DzTXXQ" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_PnjpYo3WEemn6Yq1DzTXXQ" x="10668" y="-614"/>
+        </children>
+        <children xmi:id="_P_j5sI3WEemn6Yq1DzTXXQ" element="_P_foQI3WEemn6Yq1DzTXXQ">
+          <children xsi:type="notation:Shape" xmi:id="_P_sckI3WEemn6Yq1DzTXXQ" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_P_sckY3WEemn6Yq1DzTXXQ"/>
+          </children>
+          <children xmi:id="_P_scko3WEemn6Yq1DzTXXQ" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_XjBlQJZUEemdBMA3IHcE0w" type="IEEntityKey" element="_lG970I3XEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_XjBlQZZUEemdBMA3IHcE0w"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_P_sck43WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_P_tDoI3WEemn6Yq1DzTXXQ" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_lkgMYI3XEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_lkeXMI3XEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_lkgMYY3XEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_lltGQI3XEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_llr4II3XEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_llttUI3XEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_lnXTII3XEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_lnVd8I3XEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_lnXTIY3XEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_lo2g4I3XEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_lo1SwI3XEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_lo2g4Y3XEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_lqgtwI3XEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_lqe4kI3XEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_lqgtwY3XEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_lsEM8I3XEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_lsCXwI3XEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_lsEM8Y3XEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_ltdUEI3XEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_ltcF8I3XEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_ltdUEY3XEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_lvCocI3XEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_lvAMMI3XEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_lvCocY3XEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_lwZ6YI3XEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_lwYFMI3XEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_lwZ6YY3XEemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_P_tDoY3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_P_tDoo3WEemn6Yq1DzTXXQ" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_P_tDpI3WEemn6Yq1DzTXXQ" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_P_tDpY3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_P_tDo43WEemn6Yq1DzTXXQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_P_j5sY3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_P_j5s43WEemn6Yq1DzTXXQ" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_P_j5so3WEemn6Yq1DzTXXQ" x="14498" y="-678"/>
+        </children>
+        <children xmi:id="_QdvqgI3WEemn6Yq1DzTXXQ" element="_QdqyAI3WEemn6Yq1DzTXXQ">
+          <children xsi:type="notation:Shape" xmi:id="_Qd2_QI3WEemn6Yq1DzTXXQ" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Qd2_QY3WEemn6Yq1DzTXXQ"/>
+          </children>
+          <children xmi:id="_Qd2_Qo3WEemn6Yq1DzTXXQ" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_UIlesJZUEemdBMA3IHcE0w" type="IEEntityKey" element="_7FkEoI3YEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_UIlesZZUEemdBMA3IHcE0w"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_Qd3mUI3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_Qd3mUY3WEemn6Yq1DzTXXQ" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_7GnNgI3YEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_7GlYUI3YEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_7GnNgY3YEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_7IFNII3YEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_7ID_AI3YEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_7IFNIY3YEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_7Jjz0I3YEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_7JhXkI3YEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_7Jjz0Y3YEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_7LJIMI3YEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_7LH6EI3YEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_7LJIMY3YEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_7Mz8II3YEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_7MwRwI3YEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_7Mz8IY3YEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_7OXbUI3YEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_7OU_EI3YEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_7OXbUY3YEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_7Pv7YI3YEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_7PtfII3YEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_7Pv7YY3YEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_7RIbcI3YEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_7RF_MI3YEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_7RIbcY3YEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_7SiJoI3YEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_7SfGUI3YEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_7SiJoY3YEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_7UTEMI3YEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_7ULvcI3YEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_7UTEMY3YEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_7Vog8I3YEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_7VmrwI3YEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_7Vog8Y3YEemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_Qd3mUo3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_Qd3mU43WEemn6Yq1DzTXXQ" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_Qd3mVY3WEemn6Yq1DzTXXQ" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Qd3mVo3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_Qd3mVI3WEemn6Yq1DzTXXQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_QdvqgY3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_Qdvqg43WEemn6Yq1DzTXXQ" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Qdvqgo3WEemn6Yq1DzTXXQ" x="10816" y="4487"/>
+        </children>
+        <children xmi:id="_Q7IKEI3WEemn6Yq1DzTXXQ" element="_Q7CqgI3WEemn6Yq1DzTXXQ">
+          <children xsi:type="notation:Shape" xmi:id="_Q7Qs8I3WEemn6Yq1DzTXXQ" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Q7Qs8Y3WEemn6Yq1DzTXXQ"/>
+          </children>
+          <children xmi:id="_Q7Qs8o3WEemn6Yq1DzTXXQ" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_RjY-EJZUEemdBMA3IHcE0w" type="IEEntityKey" element="_Xy5y0I3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_RjY-EZZUEemdBMA3IHcE0w"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_Q7Qs843WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_Q7Qs9I3WEemn6Yq1DzTXXQ" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_YW4poI3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_YW2NYI3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YW4poY3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_YYTl8I3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_YYOtcI3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YYTl8Y3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_YZpCsI3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_YZnNgI3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YZpCsY3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_YbA7sI3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_Ya_tkI3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YbA7sY3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_YcrvoI3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_Ycp6cI3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YcrvoY3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_YeEPsI3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_YeCagI3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YeEPsY3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_YfdW0I3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_YfbhoI3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YfdW0Y3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_Yg79gI3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_Yg6IUI3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Yg79gY3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_YiZWEI3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_YiXg4I3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YiZWEY3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_YjydMI3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_YjwA8I3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YjydMY3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_YlcDAI3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_Yla04I3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YlcDAY3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_YmvDgI3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_Ymt1YI3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YmvDgY3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_YoNDII3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_YoLN8I3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YoNDIY3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_YqF5gI3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_Yp_L0I3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YqF5gY3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_YrLeoI3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_YrJpcI3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YrLeoY3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_Ys1EcI3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_YsyoMI3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Ys1EcY3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_YuHd4I3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_YuFosI3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YuHd4Y3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_Yvev0I3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_Yvc6oI3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Yvev0Y3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_YxPqYI3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_YxN1MI3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YxPqYY3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_YyoxgI3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_YymVQI3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YyoxgY3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_Y1fRMI3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_Y1dcAI3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Y1fRMY3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_Y29Q0I3ZEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_Y28CsI3ZEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Y29Q0Y3ZEemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_Q7Qs9Y3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_Q7Qs9o3WEemn6Yq1DzTXXQ" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_Q7Qs-I3WEemn6Yq1DzTXXQ" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Q7Qs-Y3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_Q7Qs943WEemn6Yq1DzTXXQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_Q7IKEY3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_Q7IKE43WEemn6Yq1DzTXXQ" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Q7IKEo3WEemn6Yq1DzTXXQ" x="4635" y="-911"/>
+        </children>
+        <children xmi:id="_RYxvYI3WEemn6Yq1DzTXXQ" element="_RYrBsI3WEemn6Yq1DzTXXQ">
+          <children xsi:type="notation:Shape" xmi:id="_RY8ugI3WEemn6Yq1DzTXXQ" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_RY8ugY3WEemn6Yq1DzTXXQ"/>
+          </children>
+          <children xmi:id="_RY9VkI3WEemn6Yq1DzTXXQ" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_QWxZ8JZUEemdBMA3IHcE0w" type="IEEntityKey" element="_ReLP8I3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QWxZ8ZZUEemdBMA3IHcE0w"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_RY9VkY3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_RY9Vko3WEemn6Yq1DzTXXQ" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_R35XgI3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_R33iUI3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_R35XgY3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_R5FqUI3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_R5D1II3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_R5FqUY3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_R6kRAI3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_R6jC4I3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_R6kRAY3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_R8HwMI3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_R8F7AI3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_R8HwMY3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_R9mW4I3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_R9lIwI3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_R9mW4Y3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_R-_eAI3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_R-9o0I3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_R-_eAY3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_RY9Vk43WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_RY9VlI3WEemn6Yq1DzTXXQ" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_RY9Vlo3WEemn6Yq1DzTXXQ" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_RY9Vl43WEemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_RY9VlY3WEemn6Yq1DzTXXQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_RYxvYY3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_RYxvY43WEemn6Yq1DzTXXQ" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_RYxvYo3WEemn6Yq1DzTXXQ" x="359" y="-911"/>
+        </children>
+        <children xmi:id="_R20WQI3WEemn6Yq1DzTXXQ" element="_R2u2sI3WEemn6Yq1DzTXXQ">
+          <children xsi:type="notation:Shape" xmi:id="_R2_8cI3WEemn6Yq1DzTXXQ" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_R2_8cY3WEemn6Yq1DzTXXQ"/>
+          </children>
+          <children xmi:id="_R2_8co3WEemn6Yq1DzTXXQ" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_SmmukJZUEemdBMA3IHcE0w" type="IEEntityKey" element="_fQtywI3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_SmmukZZUEemdBMA3IHcE0w"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_R2_8c43WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_R3AjgI3WEemn6Yq1DzTXXQ" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_fR43cI3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_fR10II3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_fR43cY3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_fTpK8I3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_fTmHoI3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_fTpK8Y3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_fVF8cI3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_fVEuUI3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_fVF8cY3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_fW1o4I3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_fWr34I3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_fW1o4Y3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_fYDw4I3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_fYB7sI3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_fYDw4Y3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_fZhJcI3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_fZf7UI3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_fZhJcY3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_fa_wII3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_fa968I3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_fa_wIY3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_R3AjgY3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_R3Ajgo3WEemn6Yq1DzTXXQ" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_R3AjhI3WEemn6Yq1DzTXXQ" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_R3AjhY3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_R3Ajg43WEemn6Yq1DzTXXQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_R20WQY3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_R20WQ43WEemn6Yq1DzTXXQ" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_R20WQo3WEemn6Yq1DzTXXQ" x="592" y="3450"/>
+        </children>
+        <children xmi:id="_SUYcAI3WEemn6Yq1DzTXXQ" element="_SUUKkI3WEemn6Yq1DzTXXQ">
+          <children xsi:type="notation:Shape" xmi:id="_SUgX0I3WEemn6Yq1DzTXXQ" type="IEEntityName" fontName="Segoe UI">
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_SUgX0Y3WEemn6Yq1DzTXXQ"/>
+          </children>
+          <children xmi:id="_SUgX0o3WEemn6Yq1DzTXXQ" type="entity.ie.key.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_VEMLUJZUEemdBMA3IHcE0w" type="IEEntityKey" element="_vYcEQI3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_VEMLUZZUEemdBMA3IHcE0w"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_SUgX043WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_SUgX1I3WEemn6Yq1DzTXXQ" type="entity.ie.nonkey.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_vZtPkI3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_vZsBcI3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_vZtPkY3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_vbL2QI3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_vbKBEI3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_vbL2QY3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_vcv8gI3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_vcuHUI3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_vcv8gY3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_veS0oI3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_veOjMI3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_veS0oY3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_vftJ4I3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_vfrUsI3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_vftJ4Y3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_vhLJgI3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_vhJUUI3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_vhLJgY3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_vipwMI3aEemn6Yq1DzTXXQ" type="IEEntityNonKey" element="_vinT8I3aEemn6Yq1DzTXXQ" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_vipwMY3aEemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_SUgX1Y3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          </children>
+          <children xmi:id="_SUgX1o3WEemn6Yq1DzTXXQ" visible="false" type="entity.ie.description.compartment">
+            <children xsi:type="notation:Shape" xmi:id="_SUgX2I3WEemn6Yq1DzTXXQ" type="IEEntityDescription" fontName="Segoe UI">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_SUgX2Y3WEemn6Yq1DzTXXQ"/>
+            </children>
+            <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_SUgX143WEemn6Yq1DzTXXQ"/>
+          </children>
+          <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_SUYcAY3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_SUYcA43WEemn6Yq1DzTXXQ" fontName="Segoe UI" lineWidth="1"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_SUYcAo3WEemn6Yq1DzTXXQ" x="17060" y="4677"/>
+        </children>
+        <styles xsi:type="datanotation:DataAttributeStyle" xmi:id="_Nxm0ZY3WEemn6Yq1DzTXXQ"/>
+        <styles xsi:type="datanotation:DataCompartmentStyle" xmi:id="_Nxm0Zo3WEemn6Yq1DzTXXQ"/>
+        <styles xsi:type="datanotation:DataDisplayStyle" xmi:id="_Nxm0Z43WEemn6Yq1DzTXXQ"/>
+        <styles xsi:type="datanotation:DataDiagramRelationshipStyle" xmi:id="_Nxm0aI3WEemn6Yq1DzTXXQ"/>
+        <styles xsi:type="datanotation:DataShapeNameStyle" xmi:id="_Nxm0aY3WEemn6Yq1DzTXXQ"/>
+        <styles xsi:type="datanotation:DataDiagramFormattingStyle" xmi:id="_Nxm0ao3WEemn6Yq1DzTXXQ"/>
+        <styles xsi:type="datanotation:ConnectionLayerStyle" xmi:id="_Nxm0a43WEemn6Yq1DzTXXQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_Nxm0bI3WEemn6Yq1DzTXXQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_Nxm0bY3WEemn6Yq1DzTXXQ" sortingKeys="Natural:Ascending"/>
+        <styles xsi:type="ilvglnotation:LayoutStyle" xmi:id="_Nxm0bo3WEemn6Yq1DzTXXQ" graphLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.7.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalLinkOffset&lt;/string>&#xA;   &lt;float>150.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>levelingStrategy&lt;/string>&#xA;   &lt;int>1&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>flowDirection&lt;/string>&#xA;   &lt;int>4&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalLinkOffset&lt;/string>&#xA;   &lt;float>150.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalNodeLinkOffset&lt;/string>&#xA;   &lt;float>500.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>globalLinkStyle&lt;/string>&#xA;   &lt;int>2&lt;/int>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalNodeLinkOffset&lt;/string>&#xA;   &lt;float>500.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>horizontalNodeOffset&lt;/string>&#xA;   &lt;float>1000.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>layout&lt;/string>&#xA;   &lt;string>ilog.views.eclipse.graphlayout.runtime.hierarchical.IlvHierarchicalLayout&lt;/string>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>verticalNodeOffset&lt;/string>&#xA;   &lt;float>1000.0&lt;/float>&#xA;  &lt;/void>&#xA;  &lt;void method=&quot;put&quot;>&#xA;   &lt;string>levelJustification&lt;/string>&#xA;   &lt;int>16&lt;/int>&#xA;  &lt;/void>&#xA; &lt;/object>&#xA;&lt;/java>&#xA;" linkLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.7.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;/>&#xA;&lt;/java>&#xA;" labelLayoutConfiguration="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;java version=&quot;1.7.0&quot; class=&quot;java.beans.XMLDecoder&quot;>&#xA; &lt;object class=&quot;java.util.HashMap&quot;/>&#xA;&lt;/java>&#xA;"/>
+      </contents>
+    </eAnnotations>
+  </LogicalDataModel:Package>
+  <LogicalDataModel:Entity xmi:id="_O4vbkI3WEemn6Yq1DzTXXQ" name="ACCOUNTMASTER" package="_Nxm0YI3WEemn6Yq1DzTXXQ" namespace="AOL Logical Data Model.ldm/Package1">
+    <attributes xmi:id="_pTwh0I3WEemn6Yq1DzTXXQ" name="GUID" namespace="AOL Logical Data Model.ldm/Package1/ACCOUNTMASTER" dataType="CHAR(5)" required="true"/>
+    <attributes xmi:id="_pUwnYI3WEemn6Yq1DzTXXQ" name="ACCOUNT_ID" namespace="AOL Logical Data Model.ldm/Package1/ACCOUNTMASTER" dataType="CHAR(5)"/>
+    <attributes xmi:id="_pWP1II3WEemn6Yq1DzTXXQ" name="ACCOUNT_DESC" namespace="AOL Logical Data Model.ldm/Package1/ACCOUNTMASTER" dataType="CHAR(5)"/>
+    <attributes xmi:id="_pXz7YI3WEemn6Yq1DzTXXQ" name="RECORD_STATUS" namespace="AOL Logical Data Model.ldm/Package1/ACCOUNTMASTER" dataType="CHAR(5)"/>
+    <attributes xmi:id="_pZiZsI3WEemn6Yq1DzTXXQ" name="INSERTED_ON" namespace="AOL Logical Data Model.ldm/Package1/ACCOUNTMASTER" dataType="CHAR(5)"/>
+    <attributes xmi:id="_pbI8MI3WEemn6Yq1DzTXXQ" name="INSERTED_BY" namespace="AOL Logical Data Model.ldm/Package1/ACCOUNTMASTER" dataType="CHAR(5)"/>
+    <attributes xmi:id="_pctCcI3WEemn6Yq1DzTXXQ" name="LAST_UPDATED_ON" namespace="AOL Logical Data Model.ldm/Package1/ACCOUNTMASTER" dataType="CHAR(5)"/>
+    <attributes xmi:id="_peWoQI3WEemn6Yq1DzTXXQ" name="LAST_UPDATED_BY" namespace="AOL Logical Data Model.ldm/Package1/ACCOUNTMASTER" dataType="CHAR(5)"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_ZgtZ8JZUEemdBMA3IHcE0w" name="PrimaryKey" attributes="_pTwh0I3WEemn6Yq1DzTXXQ"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_PPZoEI3WEemn6Yq1DzTXXQ" name="ACCOUNTWORKITEMMAPPING" package="_Nxm0YI3WEemn6Yq1DzTXXQ" namespace="AOL Logical Data Model.ldm/Package1">
+    <attributes xmi:id="_5l7v0I3WEemn6Yq1DzTXXQ" name="GUID" namespace="AOL Logical Data Model.ldm/Package1/ACCOUNTWORKITEMMAPPING" dataType="CHAR(5)" required="true"/>
+    <attributes xmi:id="_5nLF8I3WEemn6Yq1DzTXXQ" name="ACCOUNT_GUID" namespace="AOL Logical Data Model.ldm/Package1/ACCOUNTWORKITEMMAPPING" dataType="CHAR(5)"/>
+    <attributes xmi:id="_5pCHII3WEemn6Yq1DzTXXQ" name="WORKITEM_GUID" namespace="AOL Logical Data Model.ldm/Package1/ACCOUNTWORKITEMMAPPING" dataType="CHAR(5)"/>
+    <attributes xmi:id="_5qs7EI3WEemn6Yq1DzTXXQ" name="RECORD_STATUS" namespace="AOL Logical Data Model.ldm/Package1/ACCOUNTWORKITEMMAPPING" dataType="CHAR(5)"/>
+    <attributes xmi:id="_5secsI3WEemn6Yq1DzTXXQ" name="INSERTED_ON" namespace="AOL Logical Data Model.ldm/Package1/ACCOUNTWORKITEMMAPPING" dataType="CHAR(5)"/>
+    <attributes xmi:id="_5uSakI3WEemn6Yq1DzTXXQ" name="INSERTED_BY" namespace="AOL Logical Data Model.ldm/Package1/ACCOUNTWORKITEMMAPPING" dataType="CHAR(5)"/>
+    <attributes xmi:id="_5wlgoI3WEemn6Yq1DzTXXQ" name="LAST_UPDATED_ON" namespace="AOL Logical Data Model.ldm/Package1/ACCOUNTWORKITEMMAPPING" dataType="CHAR(5)"/>
+    <attributes xmi:id="_6URcgI3WEemn6Yq1DzTXXQ" name="LAST_UPDATED_BY" namespace="AOL Logical Data Model.ldm/Package1/ACCOUNTWORKITEMMAPPING" dataType="CHAR(5)"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_YbdpIJZUEemdBMA3IHcE0w" name="PrimaryKey" attributes="_5l7v0I3WEemn6Yq1DzTXXQ"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_Pnew4I3WEemn6Yq1DzTXXQ" name="DAUDEMS" package="_Nxm0YI3WEemn6Yq1DzTXXQ" namespace="AOL Logical Data Model.ldm/Package1">
+    <attributes xmi:id="_I7kdEI3XEemn6Yq1DzTXXQ" name="DOU_ID" namespace="AOL Logical Data Model.ldm/Package1/DAUDEMS" dataType="CHAR(5)" required="true"/>
+    <attributes xmi:id="_JiQpoI3XEemn6Yq1DzTXXQ" name="DOU_NAME" namespace="AOL Logical Data Model.ldm/Package1/DAUDEMS" dataType="CHAR(5)"/>
+    <attributes xmi:id="_JlOeEI3XEemn6Yq1DzTXXQ" name="DOU_END_DATE" namespace="AOL Logical Data Model.ldm/Package1/DAUDEMS" dataType="CHAR(5)"/>
+    <attributes xmi:id="_JjpwwI3XEemn6Yq1DzTXXQ" name="DOU_START_DATE" namespace="AOL Logical Data Model.ldm/Package1/DAUDEMS" dataType="CHAR(5)"/>
+    <attributes xmi:id="_JmykUI3XEemn6Yq1DzTXXQ" name="MRC" namespace="AOL Logical Data Model.ldm/Package1/DAUDEMS" dataType="CHAR(5)"/>
+    <attributes xmi:id="_JoNgoI3XEemn6Yq1DzTXXQ" name="OTC" namespace="AOL Logical Data Model.ldm/Package1/DAUDEMS" dataType="CHAR(5)"/>
+    <attributes xmi:id="_JpwYwI3XEemn6Yq1DzTXXQ" name="MONTH" namespace="AOL Logical Data Model.ldm/Package1/DAUDEMS" dataType="CHAR(5)"/>
+    <attributes xmi:id="_JrUfAI3XEemn6Yq1DzTXXQ" name="YEAR" namespace="AOL Logical Data Model.ldm/Package1/DAUDEMS" dataType="CHAR(5)"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_WZcHAJZUEemdBMA3IHcE0w" name="PrimaryKey" attributes="_I7kdEI3XEemn6Yq1DzTXXQ"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_P_foQI3WEemn6Yq1DzTXXQ" name="EMPLOYEE" package="_Nxm0YI3WEemn6Yq1DzTXXQ" namespace="AOL Logical Data Model.ldm/Package1">
+    <attributes xmi:id="_lG970I3XEemn6Yq1DzTXXQ" name="GUID" namespace="AOL Logical Data Model.ldm/Package1/EMPLOYEE" dataType="CHAR(5)" required="true"/>
+    <attributes xmi:id="_lkeXMI3XEemn6Yq1DzTXXQ" name="EMPLOYEE_NAME" namespace="AOL Logical Data Model.ldm/Package1/EMPLOYEE" dataType="CHAR(5)"/>
+    <attributes xmi:id="_llr4II3XEemn6Yq1DzTXXQ" name="RECORD_STATUS" namespace="AOL Logical Data Model.ldm/Package1/EMPLOYEE" dataType="CHAR(5)"/>
+    <attributes xmi:id="_lnVd8I3XEemn6Yq1DzTXXQ" name="SERIAL_NUMBER" namespace="AOL Logical Data Model.ldm/Package1/EMPLOYEE" dataType="CHAR(5)"/>
+    <attributes xmi:id="_lo1SwI3XEemn6Yq1DzTXXQ" name="EMPLOYEE_EMAIL" namespace="AOL Logical Data Model.ldm/Package1/EMPLOYEE" dataType="CHAR(5)"/>
+    <attributes xmi:id="_lqe4kI3XEemn6Yq1DzTXXQ" name="INSERTED_ON" namespace="AOL Logical Data Model.ldm/Package1/EMPLOYEE" dataType="CHAR(5)"/>
+    <attributes xmi:id="_lsCXwI3XEemn6Yq1DzTXXQ" name="INSERTED_BY" namespace="AOL Logical Data Model.ldm/Package1/EMPLOYEE" dataType="CHAR(5)"/>
+    <attributes xmi:id="_ltcF8I3XEemn6Yq1DzTXXQ" name="LAST_UPDATED_ON" namespace="AOL Logical Data Model.ldm/Package1/EMPLOYEE" dataType="CHAR(5)"/>
+    <attributes xmi:id="_lvAMMI3XEemn6Yq1DzTXXQ" name="LAST_UPDATED_BY" namespace="AOL Logical Data Model.ldm/Package1/EMPLOYEE" dataType="CHAR(5)"/>
+    <attributes xmi:id="_lwYFMI3XEemn6Yq1DzTXXQ" name="IS_NEW" namespace="AOL Logical Data Model.ldm/Package1/EMPLOYEE" dataType="CHAR(5)"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_Xi4bUJZUEemdBMA3IHcE0w" name="PrimaryKey" attributes="_lG970I3XEemn6Yq1DzTXXQ"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_QdqyAI3WEemn6Yq1DzTXXQ" name="EMPPROJECTMAPPING" package="_Nxm0YI3WEemn6Yq1DzTXXQ" namespace="AOL Logical Data Model.ldm/Package1">
+    <attributes xmi:id="_7FkEoI3YEemn6Yq1DzTXXQ" name="GUID" namespace="AOL Logical Data Model.ldm/Package1/EMPPROJECTMAPPING" dataType="CHAR(5)" required="true"/>
+    <attributes xmi:id="_7GlYUI3YEemn6Yq1DzTXXQ" name="EMPLOYEE_UID" namespace="AOL Logical Data Model.ldm/Package1/EMPPROJECTMAPPING" dataType="CHAR(5)"/>
+    <attributes xmi:id="_7ID_AI3YEemn6Yq1DzTXXQ" name="PROJECT_GUID" namespace="AOL Logical Data Model.ldm/Package1/EMPPROJECTMAPPING" dataType="CHAR(5)"/>
+    <attributes xmi:id="_7JhXkI3YEemn6Yq1DzTXXQ" name="EMPLOYEE_FTE" namespace="AOL Logical Data Model.ldm/Package1/EMPPROJECTMAPPING" dataType="CHAR(5)"/>
+    <attributes xmi:id="_7LH6EI3YEemn6Yq1DzTXXQ" name="DOA_PROJECT" namespace="AOL Logical Data Model.ldm/Package1/EMPPROJECTMAPPING" dataType="CHAR(5)"/>
+    <attributes xmi:id="_7MwRwI3YEemn6Yq1DzTXXQ" name="RECORD_STATUS" namespace="AOL Logical Data Model.ldm/Package1/EMPPROJECTMAPPING" dataType="CHAR(5)"/>
+    <attributes xmi:id="_7OU_EI3YEemn6Yq1DzTXXQ" name="INSERTED_ON" namespace="AOL Logical Data Model.ldm/Package1/EMPPROJECTMAPPING" dataType="CHAR(5)"/>
+    <attributes xmi:id="_7PtfII3YEemn6Yq1DzTXXQ" name="INSERTED_BY" namespace="AOL Logical Data Model.ldm/Package1/EMPPROJECTMAPPING" dataType="CHAR(5)"/>
+    <attributes xmi:id="_7RF_MI3YEemn6Yq1DzTXXQ" name="LAST_UPDATED_ON" namespace="AOL Logical Data Model.ldm/Package1/EMPPROJECTMAPPING" dataType="CHAR(5)"/>
+    <attributes xmi:id="_7SfGUI3YEemn6Yq1DzTXXQ" name="LAST_UPDATED_BY" namespace="AOL Logical Data Model.ldm/Package1/EMPPROJECTMAPPING" dataType="CHAR(5)"/>
+    <attributes xmi:id="_7ULvcI3YEemn6Yq1DzTXXQ" name="EMP_START_DATE" namespace="AOL Logical Data Model.ldm/Package1/EMPPROJECTMAPPING" dataType="CHAR(5)"/>
+    <attributes xmi:id="_7VmrwI3YEemn6Yq1DzTXXQ" name="EMP_END_DATE" namespace="AOL Logical Data Model.ldm/Package1/EMPPROJECTMAPPING" dataType="CHAR(5)"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_UIcUwJZUEemdBMA3IHcE0w" name="PrimaryKey" attributes="_7FkEoI3YEemn6Yq1DzTXXQ"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_Q7CqgI3WEemn6Yq1DzTXXQ" name="PROJECT" package="_Nxm0YI3WEemn6Yq1DzTXXQ" namespace="AOL Logical Data Model.ldm/Package1">
+    <attributes xmi:id="_Xy5y0I3ZEemn6Yq1DzTXXQ" name="GUID" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)" required="true"/>
+    <attributes xmi:id="_YW2NYI3ZEemn6Yq1DzTXXQ" name="CLIENT_NAME_GUID" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_YYOtcI3ZEemn6Yq1DzTXXQ" name="RECORD_STATUS" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_YZnNgI3ZEemn6Yq1DzTXXQ" name="BUSINESS_PORTFOLIO_GUID" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_Ya_tkI3ZEemn6Yq1DzTXXQ" name="PROJECT_NAME" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_Ycp6cI3ZEemn6Yq1DzTXXQ" name="PROJECT_START_DATE" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_YeCagI3ZEemn6Yq1DzTXXQ" name="PROJECT_END_DATE" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_YfbhoI3ZEemn6Yq1DzTXXQ" name="PROJECT_MANAGER_UID" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_Yg6IUI3ZEemn6Yq1DzTXXQ" name="PROJECT_DESCRIPTION" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_YiXg4I3ZEemn6Yq1DzTXXQ" name="PROJECT_PHASE_GUID" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_YjwA8I3ZEemn6Yq1DzTXXQ" name="PROJECT_SECTOR_GUID" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_Yla04I3ZEemn6Yq1DzTXXQ" name="PRIMARY_SERVICE_AREA_GUID" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_Ymt1YI3ZEemn6Yq1DzTXXQ" name="KEY_PROJECT_STAKEHOLDERS" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_YoLN8I3ZEemn6Yq1DzTXXQ" name="ENGAGEMENT_TYPE_GUID" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_Yp_L0I3ZEemn6Yq1DzTXXQ" name="BAND_TO_BAND_RATE_MAPPING" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_YrJpcI3ZEemn6Yq1DzTXXQ" name="PROJECT_COST" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_YsyoMI3ZEemn6Yq1DzTXXQ" name="VARIANCE" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_YuFosI3ZEemn6Yq1DzTXXQ" name="INSERTED_ON" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_Yvc6oI3ZEemn6Yq1DzTXXQ" name="INSERTED_BY" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_YxN1MI3ZEemn6Yq1DzTXXQ" name="LAST_UPDATED_ON" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_YymVQI3ZEemn6Yq1DzTXXQ" name="LAST_UPDATED_BY" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_Y1dcAI3ZEemn6Yq1DzTXXQ" name="PROJECT_ID" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <attributes xmi:id="_Y28CsI3ZEemn6Yq1DzTXXQ" name="ALT_PROJECT_MANAGER_UID" namespace="AOL Logical Data Model.ldm/Package1/PROJECT" dataType="CHAR(5)"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_RjPNEJZUEemdBMA3IHcE0w" name="PrimaryKey" attributes="_Xy5y0I3ZEemn6Yq1DzTXXQ"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_RYrBsI3WEemn6Yq1DzTXXQ" name="REFTYPE" package="_Nxm0YI3WEemn6Yq1DzTXXQ" namespace="AOL Logical Data Model.ldm/Package1">
+    <attributes xmi:id="_ReLP8I3aEemn6Yq1DzTXXQ" name="GUID" namespace="AOL Logical Data Model.ldm/Package1/REFTYPE" dataType="CHAR(5)" required="true"/>
+    <attributes xmi:id="_R33iUI3aEemn6Yq1DzTXXQ" name="REF_TYPE_NAME" namespace="AOL Logical Data Model.ldm/Package1/REFTYPE" dataType="CHAR(5)"/>
+    <attributes xmi:id="_R5D1II3aEemn6Yq1DzTXXQ" name="RECORD_STATUS" namespace="AOL Logical Data Model.ldm/Package1/REFTYPE" dataType="CHAR(5)"/>
+    <attributes xmi:id="_R6jC4I3aEemn6Yq1DzTXXQ" name="INSERTED_ON" namespace="AOL Logical Data Model.ldm/Package1/REFTYPE" dataType="CHAR(5)"/>
+    <attributes xmi:id="_R8F7AI3aEemn6Yq1DzTXXQ" name="INSERTED_BY" namespace="AOL Logical Data Model.ldm/Package1/REFTYPE" dataType="CHAR(5)"/>
+    <attributes xmi:id="_R9lIwI3aEemn6Yq1DzTXXQ" name="LAST_UPDATED_ON" namespace="AOL Logical Data Model.ldm/Package1/REFTYPE" dataType="CHAR(5)"/>
+    <attributes xmi:id="_R-9o0I3aEemn6Yq1DzTXXQ" name="LAST_UPDATED_BY" namespace="AOL Logical Data Model.ldm/Package1/REFTYPE" dataType="CHAR(5)"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_QWoQAJZUEemdBMA3IHcE0w" name="PrimaryKey" attributes="_ReLP8I3aEemn6Yq1DzTXXQ"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_R2u2sI3WEemn6Yq1DzTXXQ" name="REFVALUE" package="_Nxm0YI3WEemn6Yq1DzTXXQ" namespace="AOL Logical Data Model.ldm/Package1">
+    <attributes xmi:id="_fQtywI3aEemn6Yq1DzTXXQ" name="GUID" namespace="AOL Logical Data Model.ldm/Package1/REFVALUE" dataType="CHAR(5)" required="true"/>
+    <attributes xmi:id="_fR10II3aEemn6Yq1DzTXXQ" name="REF_TYPE_ID" namespace="AOL Logical Data Model.ldm/Package1/REFVALUE" dataType="CHAR(5)"/>
+    <attributes xmi:id="_fTmHoI3aEemn6Yq1DzTXXQ" name="REF_VALUE" namespace="AOL Logical Data Model.ldm/Package1/REFVALUE" dataType="CHAR(5)"/>
+    <attributes xmi:id="_fVEuUI3aEemn6Yq1DzTXXQ" name="RECORD_STATUS" namespace="AOL Logical Data Model.ldm/Package1/REFVALUE" dataType="CHAR(5)"/>
+    <attributes xmi:id="_fWr34I3aEemn6Yq1DzTXXQ" name="INSERTED_ON" namespace="AOL Logical Data Model.ldm/Package1/REFVALUE" dataType="CHAR(5)"/>
+    <attributes xmi:id="_fYB7sI3aEemn6Yq1DzTXXQ" name="INSERTED_BY" namespace="AOL Logical Data Model.ldm/Package1/REFVALUE" dataType="CHAR(5)"/>
+    <attributes xmi:id="_fZf7UI3aEemn6Yq1DzTXXQ" name="LAST_UPDATED_ON" namespace="AOL Logical Data Model.ldm/Package1/REFVALUE" dataType="CHAR(5)"/>
+    <attributes xmi:id="_fa968I3aEemn6Yq1DzTXXQ" name="LAST_UPDATED_BY" namespace="AOL Logical Data Model.ldm/Package1/REFVALUE" dataType="CHAR(5)"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_Smc9kJZUEemdBMA3IHcE0w" name="PrimaryKey" attributes="_fQtywI3aEemn6Yq1DzTXXQ"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_SUUKkI3WEemn6Yq1DzTXXQ" name="WORKITEMMASTER" package="_Nxm0YI3WEemn6Yq1DzTXXQ" namespace="AOL Logical Data Model.ldm/Package1">
+    <attributes xmi:id="_vYcEQI3aEemn6Yq1DzTXXQ" name="GUID" namespace="AOL Logical Data Model.ldm/Package1/WORKITEMMASTER" dataType="CHAR(5)" required="true"/>
+    <attributes xmi:id="_vZsBcI3aEemn6Yq1DzTXXQ" name="WORK_ITEM_ID" namespace="AOL Logical Data Model.ldm/Package1/WORKITEMMASTER" dataType="CHAR(5)"/>
+    <attributes xmi:id="_vbKBEI3aEemn6Yq1DzTXXQ" name="WORK_ITEM_DESC" namespace="AOL Logical Data Model.ldm/Package1/WORKITEMMASTER" dataType="CHAR(5)"/>
+    <attributes xmi:id="_vcuHUI3aEemn6Yq1DzTXXQ" name="RECORD_STATUS" namespace="AOL Logical Data Model.ldm/Package1/WORKITEMMASTER" dataType="CHAR(5)"/>
+    <attributes xmi:id="_veOjMI3aEemn6Yq1DzTXXQ" name="INSERTED_ON" namespace="AOL Logical Data Model.ldm/Package1/WORKITEMMASTER" dataType="CHAR(5)"/>
+    <attributes xmi:id="_vfrUsI3aEemn6Yq1DzTXXQ" name="INSERTED_BY" namespace="AOL Logical Data Model.ldm/Package1/WORKITEMMASTER" dataType="CHAR(5)"/>
+    <attributes xmi:id="_vhJUUI3aEemn6Yq1DzTXXQ" name="LAST_UPDATED_ON" namespace="AOL Logical Data Model.ldm/Package1/WORKITEMMASTER" dataType="CHAR(5)"/>
+    <attributes xmi:id="_vinT8I3aEemn6Yq1DzTXXQ" name="LAST_UPDATED_BY" namespace="AOL Logical Data Model.ldm/Package1/WORKITEMMASTER" dataType="CHAR(5)"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_VEDBYJZUEemdBMA3IHcE0w" name="PrimaryKey" attributes="_vYcEQI3aEemn6Yq1DzTXXQ"/>
+  </LogicalDataModel:Entity>
+</xmi:XMI>
